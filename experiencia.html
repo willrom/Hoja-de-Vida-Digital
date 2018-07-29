@@ -6,8 +6,7 @@
   </head>
   <body>
     <header>
-      <img src="logo.svg" alt="Error alcargar logo" title="Logo Wilson Guerrero">
-    </header>
+      <img src="img/logo.svg" alt="Error alcargar logo" title="Logo Wilson Guerrero">
       <h1>Hoja de Vida Digital</h1>
         <h2>Datos Personales</h2>
           <h3>Nombres             : Wilson Bernardo</h3>
@@ -15,20 +14,34 @@
           <h3>Fecha Nacimiento    : Noviembre 5 de 1979</h3>
           <h3>Lugar de Nacimiento : Bogota</h3>
           <br>
-        <h2>Experiencia</h2>
+    </header>
+      <h2 id="inicio">Experiencia</h2>
       <nav>
         <a href="index.html">Inicio |</a>
         <a href="educacion.html">Educacion |</a>
         <a href="experiencia.html">Experiencia</a>
       <br>
-      <video src="video.mp4" controls autoplay poster="foto.jpg">
-      </video>
-        <h3>Audio sobre Hobies y Actividades recreacionales
-        </h3>
-        <audio src="audio.m4a" controls>
-        </audio>
       </nav>
+      <section>
+        <video controls autoplay poster="foto.jpg">
+          <source src="videos/video.mp4" type="video/mp4">
+          <source src="videos/video.ogv" type="video/ogg">
+          <source src="videos/video.webm" type="video/webm">
+            Tu navegador no soporta este Video
+        </video>
+          <h3>Audio sobre Hobies y Actividades recreacionales
+          </h3>
+          <audio controls>
+            <source src="audios/audio.m4a" type="Audio/m4a">
+            <source src="audios/audio.mp3" type="Audio/mp3">
+            <source src="audios/audio.ogg" type="Audio/ogg">
+            <source src="audios/audio.wav" type="Audio/wav">
+          </audio>
+      </section>
       <footer>
+        <br>
+        <a href="#inicio">Menu Principal</a>
+        <br>
         <br>
         Correo electronico: willrom@hotmail.com | Telefono : 2685860 | Direccion: Calle 44 # 20 - 57
       </footer>
